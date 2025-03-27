@@ -5,7 +5,7 @@ This project focuses on the replacement of individual stocks using ETFs and how 
 In this paper, deep learning models like LSTM,CNN and RNN were explored to predict the stock movement prices for Exchange Traded Funds (ETFs)and S&P 500 for over a ”24-hour” close-to-close trading session. To simplify the input of the model and improve its efficiency, individual stock holdings were replaced with their corresponding ETFs. To justify the reasons for this replacement, results that demonstrated a very strong correlation averaging 0.99 and a low hamming distance of 0.25 across both input and output sequences were achieved, confirming their validity. To evaluate the efficiency of the model, historical data were considered spanning a 25-year period (2000 to 2024), and it was observed that LSTM consistently outperformed CNN and RNN, with an average improvement of 48.59% and 90.50%, respectively.
 Moreover, LSTM also performed better than the Buy and Hold strategy by 53. 59%, highlighting its ability to make more profitable decisions than a passive investment strategy. These results suggest that LSTM has the potential to improve stock prediction and investment strategies and can replace traditional methods or other deep learning methods for financial forecasting.
 The paper also highlights the important questions:
-**1. Can ETFs Replace Individual Stock Movement as a Centroid?
+**1. Can ETFs Replace Individual Stock Movement as a Centroid? 
 2. Expected Performance of Stock Prediction Using Deep Learning Methods**
 
 **Step-by-Step Execution of the Project:**
